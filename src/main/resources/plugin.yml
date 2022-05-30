@@ -1,0 +1,6 @@
+name: m/place
+main: com.dorianmercier.m_place.common.main
+version: 1.0
+api-version: 1.18
+
+commands:
