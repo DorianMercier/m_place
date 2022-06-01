@@ -1,6 +1,10 @@
-name: m/place
+name: m_place
 main: com.dorianmercier.m_place.common.main
 version: 1.0
 api-version: 1.18
-
 commands:
+   admin:
+      description: m/place command to get or revoke admin status.
+      usage: /<command> [on|off]
+      permission: op
+      permission-message: You don't have <permission>
